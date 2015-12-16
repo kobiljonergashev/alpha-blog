@@ -1,0 +1,30 @@
+git --version
+git config --global user.name "Kobiljon Ergashev"
+git config --global user.email "kobiljonergashev@gmail.com"
+git --list
+
+git init
+git add -A
+git commit -m "some message"
+------->> create a new repository and follow the instructions!
+
+rm -rf config
+git checkout -f
+
+heroku -v
+heroku
+heroku login
+heroku create
+heroku keys:add
+git push heroku master
+
+
+
+
+
+
+
+
+
+
+cat ~/.ssh/id_rsa.pub

@@ -3,12 +3,18 @@
 <head>
   <title>AlphaBlog</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'default' %>
+  <%= javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" %>
   <%= csrf_meta_tags %>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 <body>
+<%= render 'layouts/navigation' %>
 <%= render 'layouts/messages' %>
-<%= yield %>
 
+<div class="container">
+	<%= yield %>
+</div>
+
+<%= render 'layouts/footer' %>
 </body>
 </html>

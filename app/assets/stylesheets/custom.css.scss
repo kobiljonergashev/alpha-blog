@@ -1,0 +1,61 @@
+$navbar-default-bg: black;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#logo {
+	float: left;
+	font-size: 1.7em;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	color: #fff;
+}
+
+#logo:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.center {
+	text-align: center;
+}
+
+.jumbotron {
+	background-image: asset-url('keep-calm-and-learn-ruby-on-rails-8.png');
+	background-size: cover;
+	height: 550px;
+}
+
+.jumbotron h1 {
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+
+.btn-xlarge {
+	font-size: 1.7em;
+	background-color: black;
+}
+
+footer {
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid #eaeaea;
+	color: #777;
+}
+
+footer small {
+	float: left;
+}
+
+footer ul {
+	float: right;
+	list-style: none;
+}
+
+footer ul li {
+	float: left;
+	margin-left: 15px;
+}

@@ -18,7 +18,7 @@ heroku create
 heroku keys:add
 git push heroku master
 
-
+rake routes | grep edit
 
 
 

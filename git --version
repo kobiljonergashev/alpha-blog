@@ -20,11 +20,11 @@ git push heroku master
 
 rake routes | grep edit
 
+heroku run rails console
 
+heroku run rake db:migrate
 
-
-
-
+user.toggle!(:admin)
 
 
 cat ~/.ssh/id_rsa.pub
